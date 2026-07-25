@@ -1,0 +1,13 @@
+# 简历原件（含手机号/出生年月，禁止公开）
+*.pdf
+
+# 插画原图备份（8.5MB，网站用的是 assets/ 里的 WebP）
+素材备份/
+
+# 旧版本备份
+index-terminal.html
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
