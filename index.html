@@ -1405,6 +1405,10 @@
   /* ── AI 作品画廊 ── */
   const MAIN_XHS = "https://www.xiaohongshu.com/user/profile/62278394000000001000ad52";
   const works = [
+    { img: "assets/works/beauty.webp", e: "💄", t: "Beauty Journey", d: "AI 选妆助手：不让用户先变成专家——把「我明天去环球影城」这类生活语言，翻译成质地 / 显色度 / 持色等唇颊约束，再结合冷暖调选品并在用户照片上试色。",
+      tools: ["场景理解", "约束推导", "虚拟试色"], q: "怎么把一句生活语言，翻译成选妆约束？", href: MAIN_XHS },
+    { img: "assets/works/scent.webp", e: "🎁", t: "Moment Scent Box", d: "AI 香氛礼盒：用 VLM 读取照片里的场景、情绪与关系线索，把两个人共同经历的瞬间转译成一支香水、一段故事和一只虚拟礼盒，跑通创建—分享—拆盒—领取闭环。",
+      tools: ["VLM 场景理解", "故事生成", "送礼闭环"], q: "怎么把一个瞬间，变成可以被打开的香气？", href: MAIN_XHS },
     { img: "assets/xhs/h4.webp", e: "🎨", t: "美妆 3D 展示区", d: "把 PPT 里的“概念”变成可逛的线下 3D 空间——AI 让抽象的商业构想第一次“站”了起来。",
       tools: ["3D 生成", "空间设计", "商赛提案"], q: "怎么把 PPT 里的概念做成能逛的 3D 展示？", href: "https://www.xiaohongshu.com/explore/6a1cf6e0000000001c009a19" },
     { img: "assets/xhs/nestle.webp", e: "🌍", t: "供应链数字孪生", d: "雀巢商赛：用 OpenClaw 做出可交互的供应链“地球”，全球运营、碳足迹、气候韧性三层可视化推演。",
